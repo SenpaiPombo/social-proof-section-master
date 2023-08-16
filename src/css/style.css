@@ -1,0 +1,140 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.caixa-grande{
+    height: 100%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: hsl(300, 43%, 22%);
+    font-size: 43px;
+    font-weight: 700;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.descricao-titulo{
+    color: hsl(303, 10%, 53%);
+    width: 350px;
+    line-height: 18px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+.texto-avaliacao{
+    color: hsl(300, 43%, 22%);
+}
+
+.nome-usuario{
+    color: hsl(300, 24%, 96%); 
+}
+
+.verificado-usuario{
+   color: hsl(333, 80%, 67%);
+   font-weight: 400;
+}
+
+.comentario-usuario{
+    color: hsl(300, 24%, 96%); 
+    line-height: 20px;
+}
+
+.caixa1{
+    width: 980px;
+    display: flex;   
+}
+
+.apresentacao{
+    width: 490px;
+}
+
+.avaliacoes{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 15px;  
+}
+
+.avaliacao1, .avaliacao2, .avaliacao3{
+    display: flex; 
+    align-items: center;    
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 6px;
+    padding-left: 25px;
+    width: 400px;
+    height: 45px;
+}
+
+.avaliacao1{
+    margin-right: 100px;
+}
+
+.avaliacao2{
+    margin-right: 50px;
+}
+
+.estrelas{
+    display: flex;
+    gap: 8px;
+    margin-right: 25px;    
+}
+
+.caixa2{
+    width: 980px;
+}
+
+.caixa2 ul{
+    display: flex;
+    gap: 25px;
+}
+
+.caixa2 ul li{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    width: 310px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 27px;   
+}
+
+.caixa2 ul li img{
+    width: 35px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.foto-nome{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nome-usuario{
+    margin-bottom: 4px;
+}
+
+.usuario2{
+    margin-top: 20px;
+}
+
+.usuario3{
+    margin-top: 40px;
+}
+
+
+
+
+

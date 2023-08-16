@@ -1,0 +1,74 @@
+@media (max-width: 1000px){
+
+    body .caixa-grande{
+        gap: 40px;
+    }
+
+    .caixa1{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 375px;
+        margin-bottom: 35px;
+    }
+
+    .caixa1 .titulo{
+        font-size: 30px;
+        width: 265px;
+        text-align: center;
+    }
+
+    .caixa1 .descricao-titulo{
+        width: 275px;
+        text-align: center;
+    }   
+
+    .caixa1 .avaliacoes{
+        width: 345px;
+        align-items: center;        
+    }
+
+    ul .estrelas{
+        margin-bottom: 10px;
+    }
+
+    ul .avaliacao1{
+        width: 275px;
+        height: 60px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul .avaliacao2{
+        width: 275px;
+        height: 60px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul .avaliacao3{
+        width: 275px;
+        height: 60px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }     
+ 
+     .caixa2 ul li{
+         width: 275px; 
+         margin: 0;       
+     }
+
+     .caixa2 ul{
+        flex-direction: column;
+        align-items: center;          
+    }
+}
